@@ -14,7 +14,7 @@ body{
     background-color: #fff;
 }
 section{
-    padding: 50px 7%;
+    padding: 100px 6%;
 }
 a{
     text-decoration: none;
@@ -25,7 +25,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 80px;
+    padding: 20px 40px;
 }
 .logo{
     font-size: 1.3rem;
@@ -52,4 +52,48 @@ header ul button{
     padding: 10px 40px 10px 40px;
     font-size: 18px;
 }
+/* End of header */
 
+/* first section */
+.first{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.first .first-text h4{
+   color: #000;
+   font-weight: 700;
+   margin-bottom: 8px;
+   font-size: 20px;
+}
+.first .first-text h1{
+    color: #EC4067;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.first .first-text p{
+    font-size: 28px;
+    color: #000;
+}
+.first .first-img img{
+    width: 80%;
+}
+.first .first-text button{
+    background-color: #EC4067;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.first .first-text button:nth-child(5){
+   background-color: #fff;
+   outline: 1px solid #EC4067;
+   color: #EC4067;
+   border-radius: 0px;
+   width: 150px;
+
+}
