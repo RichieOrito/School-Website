@@ -30,8 +30,8 @@ header{
     font-weight: 800;
     color: #000;
 }
-.navbar{
-    display: flex;
+.navbar li{
+    display: inline-block;
 }
 .navbar a{
     font-size: 1.1rem;
