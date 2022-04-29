@@ -13,12 +13,14 @@
 body{
     background-color: #fff;
 }
+section{
+    padding: 50px 7%;
+}
 a{
     text-decoration: none;
 }
 /* Header section */
 header{
-    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
