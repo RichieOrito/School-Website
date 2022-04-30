@@ -21,11 +21,13 @@ a{
 }
 /* Header section */
 header{
+    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
+    background-color: #fff;
 }
 .logo{
     font-size: 1.3rem;
@@ -59,6 +61,30 @@ header ul button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+}
+@media only screen and (max-width: 746px) {
+    body {
+      background-color: lightblue;
+    }
+    .first-text{
+        margin-top: 50px;
+    }
+  }
+@media only screen and (max-width: 436px){
+    body{
+        background-color: lightcoral;
+    }
+    .first-text{
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 398px){
+    body{
+        background-color: lightgreen;
+    }
+    .first-text{
+        margin-top: 90px;
+    }
 }
 .first .first-text h4{
    color: #000;
@@ -94,6 +120,6 @@ header ul button{
    outline: 1px solid #EC4067;
    color: #EC4067;
    border-radius: 0px;
-   width: 150px;
+   width: 170px;
 
 }
