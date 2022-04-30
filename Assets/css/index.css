@@ -169,3 +169,31 @@ header ul button{
 .second .about .second-text, .second-img:nth-child(5){
     margin-top: 60px;
 }
+/* Cards section */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 2.8rem;
+    align-items: center;
+}
+.box-img{
+    width: 100%;
+}
+.box-img img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.cards-container .cards .box h3{
+    color: #EC4067;
+}
+.cards-container .cards .box button{
+    background-color: #EC4067;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 30px;
+}
