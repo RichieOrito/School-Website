@@ -62,7 +62,7 @@ header ul button{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
-@media only screen and (max-width: 746px) {
+/* @media only screen and (max-width: 746px) {
     body {
       background-color: lightblue;
     }
@@ -85,6 +85,9 @@ header ul button{
     .first-text{
         margin-top: 90px;
     }
+} */
+.first-text{
+    margin-top: 100px;
 }
 .first .first-text h4{
    color: #000;
@@ -103,6 +106,7 @@ header ul button{
 }
 .first .first-img img{
     width: 80%;
+    margin-top: 100px;
 }
 .first .first-text button{
     background-color: #EC4067;
