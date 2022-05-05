@@ -230,7 +230,7 @@ header ul button{
 }
 .contact h2{
     color: #000;
-    font-weight: 550;
+    font-weight: 580;
 }
 .contact h2 button{
     background-color: #EC4067;
@@ -241,4 +241,16 @@ header ul button{
     font-weight: 800;
     font-size: 15px;
 }
+.footer{
+    text-align: center;
+    padding: 55px;
+    background-color: lightgrey;
+}
+.footer span{
+    color: red;
+}
+.footer h2{
+    font-weight: 550;
+}
+
 
