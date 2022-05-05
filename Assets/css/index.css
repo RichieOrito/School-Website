@@ -197,3 +197,32 @@ header ul button{
     font-size: 15px;
     margin-top: 30px;
 }
+.project .project-bike{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.project .bike-text{
+    margin-top: 20px;
+}
+.project .bike-text h1{
+    color: #EC4067;
+   
+}
+.project .bike-text p{
+    font-weight: 800;
+}
+.project .bike-text button{
+    border: none;
+    background-color: #EC4067;
+    padding: 15px 50px 15px 50px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.project .project-bike .bike img{
+    width: 95%;
+}
+
