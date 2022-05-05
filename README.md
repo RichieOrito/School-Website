@@ -80,4 +80,4 @@ SOFTWARE.
 Linked - [Richard Orito](https://www.linkedin.com/in/richie-orito/)
 ​
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#school-website)
