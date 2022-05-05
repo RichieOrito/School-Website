@@ -210,7 +210,7 @@ header ul button{
    
 }
 .project .bike-text p{
-    font-weight: 800;
+    font-weight: 550;
 }
 .project .bike-text button{
     border: none;
@@ -224,5 +224,21 @@ header ul button{
 }
 .project .project-bike .bike img{
     width: 95%;
+}
+.contact h1{
+    color: #EC4067;
+}
+.contact h2{
+    color: #000;
+    font-weight: 550;
+}
+.contact h2 button{
+    background-color: #EC4067;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
 }
 
